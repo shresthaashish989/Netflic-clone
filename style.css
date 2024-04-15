@@ -1,0 +1,192 @@
+* {}
+
+.main {
+  background-image: url(images/bg.jpg);
+  height: 70vh;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; /* or contain or specific pixel values */
+}
+
+body {
+  background-color: black;
+}
+
+.main .box {
+  background-color: black;
+  height: 70vh;
+  width: 100%;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+}
+
+nav {
+  max-width: 60vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+}
+
+nav img {
+  color: red;
+  width: 112px;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  height: calc(100% - 62px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 23px;
+  padding: 0 30px;
+  text-align: center;
+}
+
+.hero > :first-child {
+  font-weight: bolder;
+  font-size: 48px;
+  text-align: center;
+}
+
+.hero > :nth-child(2) {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+.hero > :nth-child(3) {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
+
+.line {
+  height: 5px;
+  background-color: gray;
+}
+
+.hero-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.btn{
+  padding: 8px 10px;
+  font-weight: 400;
+  background-color: rgba(221, 213, 213, 0.103);
+  border: 1px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+
+
+}
+
+.main input{
+  padding:7px 101px 8px 14px;
+  font-size: 12px;
+  font-weight: 900;
+  border-radius: 4px;
+  background-color: rgba(23,23,23, 0.7 );
+  border: 1px solid rgb(246, 238, 238,0.6);
+  color: white;
+}
+
+
+
+.btn-red{
+  background-color: red;
+  color: white;
+  padding:5px;
+  font-size: 20px;
+  border-radius: 4px;
+  font-weight: 400;
+  
+}
+
+.btn-red-sm{
+  background-color: red;
+
+}
+
+.first{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  position: relative;
+}
+
+.image img{
+  width: 30vw;
+  position: relative;
+  z-index: 10;
+}
+
+.image video{
+  position: absolute;
+  top: 70px;
+  right: 40px;
+  width: 25vw;
+}
+
+section .first > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.first >div :first-child{
+  font-size: 48px;
+  font-weight: bolder;
+  padding: 2px;
+}
+
+.first >div :nth-child(2){
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.fre{
+  background: black;
+  color: white;
+font-size: 24px;
+  padding: 35px;
+}
+
+.fre h2{
+  text-align: center;
+}
+.boxes{
+  display: flex;
+  background-color: grey;
+  padding: 24px;
+  justify-content: space-between;
+  max-width: 60vw;
+  margin: 34px auto;
+cursor: pointer;
+ 
+}
+
+.boxes:hover{
+  transition: 0.5s ease-in;
+  background-color: rgba(128, 128, 128, 0.51)
+}
